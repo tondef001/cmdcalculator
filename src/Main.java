@@ -19,6 +19,8 @@ import java.util.Stack;
  */
 public class Main {	
 	
+	//This comment is to test Travis!
+	
 	private static Stack<CommandData> history = new Stack<CommandData>(); // History of valid commands
 	private static final String regex = "![0-9]*"; //format for variable results
 	private boolean printResult;
